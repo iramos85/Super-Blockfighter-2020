@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>BrickFighter 2010</title>
+<link rel="stylesheet" href="css/main.css">
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" charset="utf-8"></script>
+<script src="js/app.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>SUPER BLOCK FIGHTER<br>2020</h1>
+  
+    <img src="images/cityscape.jpg" id = "bg" alt = "cityscape">
+
+    <div class='container'>
+    <img src="images/Ken.png" id = "ken" alt="ken">
+    </div>
+<div>
+<canvas width='800' height='800'></canvas>
+
+<button id = 'onePlayer' class = 'button' type = 'button'>1 Player</button>
+<button id = 'twoPlayer' class = 'button' type = 'button'>2 Players</button>
+<!-- <button id = 'howTo' class = 'button' type = 'button'>How To Play</button> -->
+<button id = 'soundOff' class = 'button' type = 'button'>Sound Off</button>
+
+<div class='modal' id = 'popUpWinner'>
+  <div class = 'modal-content'>
+    <h2>Congratulations, Ken! You've defeated Troy!<br>Whats next for our hero?</h2>
+    <!-- <button id = 'newGame' class = 'button' type = 'button'>New Game</button> -->
+  </div>
+</div>
+
+<div class = 'modal' id = 'popUpDefeat'>
+  <div class = 'modal-content'>
+    <h2>Dont worry Ken, the Cyboplasm in your blood would have killed you anyways!<br>Whats next for our hero?</h2>
+    <!-- <button id = 'newGame' class = 'button' type = 'button'>New Game</button> -->
+  </div>
+</div>
+
+<div class = 'modal' id = 'popUpWinnerTwo'>
+  <div class = 'modal-content'>
+    <h2>Now that the imposter is defeated, time to go after Troy's killer!<br>Whats next for our hero?</h2>
+    <!-- <button id = 'newGame' class = 'button' type = 'button'>New Game</button> -->
+</div>
+</div>
+
+<!-- <div class = 'modal' id = 'instructions'>
+  <div class = 'modal-content'>
+    <h2>Now that the imposter is defeated, time to go after Troy's killer!<br>Whats next for our hero?</h2>
+    <button id = 'newGame' class = 'button' type = 'button'>New Game</button>
+</div>
+</div> -->
+
+<img src="images/ball.png" id = "gameBall" class="hidden">
+</body>
+</html>  
